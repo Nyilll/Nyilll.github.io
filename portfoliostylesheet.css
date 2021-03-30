@@ -1,12 +1,12 @@
 
-
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Narrow:ital,wght@1,500&family=Source+Code+Pro&display=swap');
 
 
 
 body {
     background-color: #BDD4DE;
     margin: 0;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Archivo Narrow', sans-serif;
 }
 
 * {
@@ -46,7 +46,8 @@ body {
     margin-top: 40px;
     font-size: 0.75rem;
     text-align: right;
-    color: black;
+    color: white;
+    font-size: 15px;
 }
 
 .links a{
@@ -68,29 +69,40 @@ body {
 }
 
 .container img {
-    max-width: 400px
+    max-width: 250px;
+    width: 40%;
+    padding: 10px;
 }
 
 .placeholder {
-    margin-left: 35px;
-    height: 300px;
+    margin: 35px;
+    /* height: 300px; */
+    grid-row: 1;    
 }
+
+.food {
+    margin: 35px;
+    grid-row: 2;
+}
+
 
 #intro {
     background-color: aliceblue;
     color: #FF530D;
     grid-row: 2;
     margin: 40px 100px;
-    
+    padding: 40px;
 }
 
 #footer {
     background-color: #2B3A42;
     color: #BDD4DE;
     text-align: center;
-    padding-top: 100px;
-    height: 200px;
-    
+    padding-top: 10px;
+    height: 140px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
 
 #footer a{
